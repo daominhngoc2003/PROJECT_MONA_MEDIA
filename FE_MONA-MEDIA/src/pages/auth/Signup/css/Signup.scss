@@ -1,0 +1,165 @@
+
+/* signup */
+.signup-section .signup-wrapper{
+    width: 600px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 30px -1px #c3c2c2;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 20px 40px;
+}
+
+.signup-section .signup-wrapper .form-signup .signup-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.signup-section .signup-wrapper .form-signup #signup-form{
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+ .form-register a:hover{
+    color: red;
+    transition: 0.3s all;
+}
+
+.signup-section .signup-wrapper .form-signup #signup-form label{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.signup-section .signup-wrapper .form-signup #signup-form input{
+    width: 95%;
+    margin: 0 auto;
+    padding: 15px 20px;
+    outline: none;
+    border-radius: 50px;
+    border: 1px solid #eeecec;
+    height: 30px;
+    font-size: 14px;
+    display: block;
+}
+
+.signup-section .signup-wrapper .form-signup #signup-form .signup-name input{
+    width: 95%;
+    margin: 0 auto;
+    padding: 15px 20px;
+    outline: none;
+    border-radius: 50px;
+    border: 1px solid #eeecec;
+    height: 30px;
+    font-size: 14px;
+    display: block;
+}
+
+.signup-section .signup-wrapper .form-signup #signup-form .signup-password input{
+    width: 95%;
+    margin: 0 auto;
+    padding: 15px 20px;
+    outline: none;
+    border-radius: 50px;
+    border: 1px solid #eeecec;
+    height: 30px;
+    font-size: 14px;
+    display: block;
+}
+
+.signup-section .signup-wrapper .form-signup #signup-form .signup-flex .form-remember{
+    display: flex;
+    align-items: center;
+
+}
+
+.signup-section .signup-wrapper .form-signup #signup-form .signup-flex .form-remember input{
+    width: 20px;
+    padding: 0;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.signup-section .signup-wrapper .form-signup #signup-form .signup-flex .forgot-password a{
+    color: black;
+}
+
+
+.signup-section .signup-wrapper .form-signup #signup-form .btn-submit button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 15px 0;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.signup-section .signup-wrapper .form-signup #signup-form .btn-submit button:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-weight: 600;
+    transition: 0.5s all;
+}
+
+.signup-section .signup-wrapper .form-signup .form-signup-other{
+    border: 1px solid #eeecec;
+}
+
+.signup-section .signup-wrapper .form-signup .form-signup-other h5{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    margin: 0;
+}
+
+
+.signup-section .signup-wrapper .form-signup .form-signup-other ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
+
+.signup-section .signup-wrapper .form-signup .form-signup-other ul .facebook-signup{
+    background: rgb(58, 77, 180);
+    color: white;
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+
+.signup-section .signup-wrapper .form-signup .form-signup-other ul .facebook-signup:hover{
+    background: rgb(49, 64, 153);
+    transition: 0.4s all;
+}
+
+
+.signup-section .signup-wrapper .form-signup .form-signup-other ul .google-signup{
+    background: rgb(201, 55, 1);
+    color: white;
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.signup-section .signup-wrapper .form-signup .form-signup-other ul .google-signup:hover{
+    background: rgb(174, 47, 1);
+    transition: 0.4s all;
+}
+
+.signup-section .signup-wrapper .form-signup .form-signup-other ul li{
+    width: 100%;
+    list-style: none;
+}
+
+.signup-section .signup-wrapper .form-signup .form-signup-other ul li i{
+    margin-right: 2px;
+}

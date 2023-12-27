@@ -1,0 +1,26 @@
+.inp {
+  outline: none;
+}
+
+.product-main {
+  width: 100%;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.form-update {
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+.form-right {
+  grid-column: span 1 / span 1;
+}

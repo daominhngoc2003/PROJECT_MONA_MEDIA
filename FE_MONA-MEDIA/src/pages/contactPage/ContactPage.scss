@@ -1,0 +1,82 @@
+
+/* CONTACT */
+.contact-section-main .contact-wrapper-main .col{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    }
+    .contact-section-main .contact-wrapper-main .col .contact-content{
+        line-height: 30px;
+    }
+    .contact-section-main .contact-wrapper-main .col i{
+        margin-right: 10px;
+    }
+    .contact-section-main .contact-wrapper-main .col a{
+        text-decoration: none;
+        color: black;
+    }
+    .contact-section-main .contact-wrapper-main .col a:hover{
+        color: #86ba09;
+    }
+    .contact-section-main .contact-wrapper-main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:30px;
+        width: 1200px;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+    // @media (min-width: 301px) and (max-width: 700px) {
+    //     .contact-section-main .contact-wrapper-main {
+    //         width: 1200px;
+    //     margin-left: 60px;/* Adjusted width for medium screens */
+    //     }
+    //     /* Adjust other styles as needed */
+    // }
+
+    .contact-section-main .contact-wrapper-main .contact-title h1{
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .contact-section-main .contact-wrapper-main .form-contact .contact-grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    
+    .contact-section-main .contact-wrapper-main .form-contact input{
+        padding: 10px 10px;
+        outline: none;
+    }
+    
+    .contact-section-main .contact-wrapper-main .form-contact button{
+        background: #86ba09;
+        border: none;
+        color: white;
+        padding: 10px 80px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    .contact-section-main .contact-wrapper-main .form-contact button:hover{
+        background: #638b06;
+        transition: 1s all;
+    }
+    
+    .contact-section-main .contact-wrapper-main .form-contact .btn-submit{
+       text-align: center;
+    }
+    
+    .contact-section-main .contact-wrapper-main .form-contact textarea{
+        grid-column: span 2;
+        height: 80px;
+        outline: none;
+    }
+    .contact-section-main .contact-wrapper-main .form-contact textarea:focus{
+        border-bottom: 1px solid blue;
+    }
+    
+    button{
+        cursor: pointer;
+    }

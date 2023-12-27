@@ -1,0 +1,340 @@
+/* HEADER */
+
+.header-wrapper .navbar-logo h1 {
+  color: #86ba09;
+  font-weight: 700;
+}
+
+@media (max-width: 750px) {
+  .header-wrapper .navbar-logo h1 {
+    color: #86ba09;
+    font-weight: 700;
+    font-size: 13px;
+  }
+}
+
+.header-wrapper .navbar-logo h1 {
+  color: #86ba09;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+@media (min-width: 1024px) {
+  header .header-wrapper .navbar-menu {
+    position: relative;
+    transition-property: none;
+    flex-direction: row;
+    margin-left: 2rem;
+  }
+}
+
+header .header-wrapper.navbar-menu {
+  flex-direction: column;
+  display: flex;
+}
+
+.header-wrapper .navbar-logo h1 {
+  color: #86ba09;
+  font-weight: 700;
+}
+
+.header-wrapper {
+  width: 100vw;
+  position: fixed;
+  z-index: 50;
+  background: white;
+}
+
+.header-wrapper .navbar .navbar-wrapper {
+  max-width: 1200px;
+  padding: 20px 8px;
+}
+
+@media (min-width: 1024px) {
+  .header-wrapper .navbar .navbar-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.header-wrapper .navbar .navbar-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* NAV */
+
+.navbar {
+  /* border-bottom: 1px solid #c3c2c2; */
+  box-shadow: 1px 1px 10px 0px #c3c2c2;
+  width: 100vw;
+}
+
+nav .navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+nav .navbar-wrapper .navbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+nav .navbar-wrapper .navbar-actions .account a i {
+  padding: 0 10px;
+  font-size: 20px;
+  color: grey;
+  margin: 0;
+}
+nav .navbar-wrapper .navbar-actions .account a i:hover {
+  color: #86ba09;
+  transition: 0.5s all;
+  transition-duration: 200ms;
+}
+nav .navbar-wrapper .navbar-actions .cart a i {
+  padding: 0 10px;
+  font-size: 20px;
+  color: grey;
+}
+nav .navbar-wrapper .navbar-actions .cart a i:hover {
+  color: #86ba09;
+  transition: 0.5s all;
+}
+
+nav .navbar-wrapper ul {
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #666666;
+  font-weight: 600;
+  padding: 10px 10px;
+}
+
+nav ul li a:hover {
+  color: #86ba09;
+  transition: 0.5s all;
+  transition-duration: 700ms;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 500px; /* Giá trị tối đa cho chiều cao */
+  }
+}
+.menu-item {
+  position: relative;
+}
+.menu-item .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -100px;
+  background-color: #f4f3f3;
+  padding: 5px;
+  width: 100%;
+  /* transition: opacity 4s, max-height 5s; */
+  opacity: 0;
+  max-height: 0;
+  min-width: 200px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  right: 5px;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  transition: opacity 0.5s, max-height 0.5s;
+}
+
+/* .group:hover .submenu {
+    visibility: initial;
+} */
+.menu-item:hover .submenu {
+  transition-delay: 0s, 0.5s;
+  display: block;
+  opacity: 1;
+  max-height: 500px; /* Giá trị tối đa cho chiều cao */
+  padding: 10px 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 500px; /* Giá trị tối đa cho chiều cao */
+  }
+}
+.account {
+  position: relative;
+}
+.account .account-submenu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -100px;
+  background-color: #f4f3f3;
+  padding: 5px;
+  width: 100%;
+  /* transition: opacity 4s, max-height 5s; */
+  opacity: 0;
+  max-height: 0;
+  min-width: 200px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  right: 5px;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  transition: opacity 0.5s, max-height 0.5s;
+  margin-top: 15px;
+}
+
+/* .group:hover .submenu {
+    visibility: initial;
+} */
+.account:hover .account-submenu {
+  transition-delay: 0s, 0.5s;
+  display: block;
+  opacity: 1;
+  max-height: 500px; /* Giá trị tối đa cho chiều cao */
+  padding: 10px 20px;
+  top: 6px;
+}
+.account:hover .account-submenu li {
+  padding: 7px 0;
+}
+
+.logout {
+  background: none;
+  outline: none;
+  border: none;
+  color: #666666;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.logout:hover {
+  color: #86ba09;
+}
+
+// responsive
+
+/* CSS cho thanh menu */
+.menu-transition {
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%);
+}
+
+.menu-transition.active {
+  transform: translateX(0);
+}
+
+.menu-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px; /* Khoảng width cố định cho menu */
+  background-color: #fff; /* Màu nền của menu */
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%);
+  z-index: 50;
+}
+
+@media (min-width: 1024px) {
+  header .menu-bar {
+    transition-property: none;
+    display: flex;
+  }
+}
+
+header .menu-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px; /* Khoảng width cố định cho menu */
+  background-color: #fff; /* Màu nền của menu */
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%);
+}
+
+.menu-bar.active {
+  transform: translateX(0);
+}
+
+@media (min-width: 1024px) {
+  header .btn-menu {
+    display: none;
+  }
+}
+
+.btn-menu {
+  font-size: 20px;
+  display: block;
+}
+
+.nav-pc {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .nav-pc {
+    display: block;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.cart-menu-item {
+  position: relative;
+}
+.cart-menu-item .cart-submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #f4f3f3;
+  padding: 5px;
+  left: -350px;
+  width: 100%;
+  transition: opacity 4s, max-height 5s;
+  opacity: 0;
+  max-height: 0;
+  min-width: 450px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  right: 5px;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  transition: opacity 0.5s, max-height 0.5s;
+}
+
+/* .group:hover .submenu {
+    visibility: initial;
+} */
+.cart-menu-item:hover .cart-submenu {
+  transition-delay: 0s, 0.5s;
+  display: block;
+  opacity: 1;
+  max-height: 500px; /* Giá trị tối đa cho chiều cao */
+  padding: 10px 20px;
+}

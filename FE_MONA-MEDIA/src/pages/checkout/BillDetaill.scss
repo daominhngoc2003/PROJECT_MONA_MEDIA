@@ -1,0 +1,84 @@
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: 50px 0;
+}
+.grid {
+  display: grid;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.userName-account {
+  display: flex;
+  gap: 5px;
+}
+.container .col-1 {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  grid-column: span 2 / span 2;
+}
+
+.bill-wrapper {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.box-header {
+  background: #000;
+  width: 100%;
+}
+
+.box-content {
+  padding: 10px 10px;
+}
+.box-content .col-name .cart-image {
+  max-width: 100px;
+}
+.flex {
+  display: flex;
+}
+.box-content .col-name img {
+  width: 100%;
+}
+.col-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cart-name a {
+  text-decoration: none;
+}
+
+.bill-review a {
+  background: #86ba09;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  transition: 0.5s;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.bill-box-footer {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  gap: 10px;
+}
+.bill-review a:hover {
+  background: #6a9605;
+}
+
+.bill-remove button {
+  background: rgb(194, 22, 22);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  transition: 0.5s;
+  border-radius: 3px;
+}
+
+.bill-remove button:hover {
+  background: rgb(142, 15, 15);
+}

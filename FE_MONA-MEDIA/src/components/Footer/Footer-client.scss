@@ -1,0 +1,111 @@
+/* FOOTER */
+
+.footer-section {
+  // border-top: 1px solid gray;
+  //   box-shadow: 0px 5px 30px -10px gray;
+  border: 1px solid rgb(229, 229, 229);
+  background: rgb(249, 249, 249);
+}
+
+.footer-section .footer-wraper {
+  width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 50px 0;
+}
+
+/* For screens with a width from 301px to 700px */
+// @media (min-width: 301px) and (max-width: 700px) {
+//     .footer-section {
+//         width: 1340px;
+//     }
+
+//     /* Adjust other styles as needed */
+// }
+
+.footer-section .footer-wraper {
+  width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.footer-section .footer-wraper .footer-menu ul {
+  line-height: 30px;
+}
+
+.footer-section .footer-wraper .footer-menu ul li a {
+  color: #666666;
+}
+
+.footer-section .footer-wraper .footer-menu ul li a:hover {
+  color: #86ba09;
+}
+
+.footer-section .footer-wraper .footer-menu ul {
+  padding: 0;
+}
+
+.footer-section .footer-wraper .footer-menu ul li a:hover {
+  color: #86ba09;
+}
+
+.footer-section .footer-wraper li a {
+  text-decoration: none;
+}
+
+.footer-section .footer-wraper li {
+  list-style: none;
+}
+
+.footer-section .footer-wraper .footer-contact .footer-content {
+  color: #666666;
+  line-height: 30px;
+  margin-top: 5px;
+}
+
+.footer-section .footer-wraper .footer-contact .footer-content i {
+  padding-right: 10px;
+  color: #86ba09;
+}
+
+.footer-section .footer-wraper .footer-products ul {
+  line-height: 30px;
+}
+
+.footer-section .footer-wraper .footer-products ul li a {
+  color: #666666;
+}
+
+.footer-section .footer-wraper .footer-products ul li a:hover {
+  color: #86ba09;
+}
+
+.footer-section .footer-wraper .footer-products ul {
+  padding: 0;
+}
+
+.footer-section .footer-wraper .footer-products ul li a:hover {
+  color: #86ba09;
+}
+
+.animation {
+  position: fixed;
+}
+#scrollToTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: block;
+  border: 2px solid black;
+  border-radius: 100%;
+  font-size: 30px;
+  padding: 0 10px;
+}
+#scrollToTopButton:hover {
+  color: #86ba09;
+  border: 2px solid #86ba09;
+  transition: 1s all;
+}

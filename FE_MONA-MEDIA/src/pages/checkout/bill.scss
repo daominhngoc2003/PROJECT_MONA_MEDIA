@@ -1,0 +1,129 @@
+// .wrapper-order{
+//     max-width: 1200px;
+//     width: 1200px;
+//     margin: 0 auto;
+//     display: flex;
+//     gap: 10px;
+//     margin-top: 20px;
+//     margin-bottom: 50px;
+// }
+
+// .wrapper-order .order-detail{
+//     max-width: 60%;
+//     width: 100%;
+//     line-height: 40px;
+//     margin-right: 30px;
+// }
+
+// .wrapper-order .order-title{
+//     font-weight: 600;
+//     font-size: 25px;
+//     margin: 0;
+// }
+
+// .wrapper-order .bill-cart{
+//     max-width: 40%;
+//     width: 100%;
+//     padding: 20px 20px;
+//     background: #f1f0f0;
+// }
+
+.flex-d {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #e1e0e0;
+}
+.flex {
+  display: flex;
+}
+
+.wrapper-order .bill-cart .bill-title {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+  color: #86ba09;
+  margin: 0;
+}
+
+.wrapper-order .bill-cart ul li {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-order .bill-cart ul li p {
+  padding-right: 10px;
+  list-style-type: disc;
+}
+
+.bill-user-form {
+  gap: 10px;
+}
+.bill-user-form input {
+  width: 100%;
+  padding: 10px 10px;
+  outline: none;
+  border: 1px solid #e1e0e0;
+  margin: 3px 0;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  transition: 0.5s;
+}
+.bill-user-form input:hover {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.bill-user-form input:focus {
+  border-bottom: 1px solid #86ba09;
+}
+
+.grid {
+  display: grid;
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: 50px 0;
+}
+.containner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.containner .col-1 {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  grid-column: span 2 / span 2;
+}
+
+.paymemtMethod span {
+  width: 100%;
+}
+
+// .w-full {
+//   width: 100%;
+// }
+// .w-full:focus{
+//     background: #000;
+// }
+
+.bill-save {
+  margin-top: 10px;
+}
+
+.bill-save button {
+  background: #86ba09;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  transition: 0.5s;
+  border-radius: 3px;
+}
+.bill-save button:hover {
+  background: #6a9605;
+}
